@@ -1,0 +1,15 @@
+require 'dotenv'
+Dotenv.load
+
+default_platform :tvos
+
+platform :tvos do
+  lane :test do
+    run_tests(
+      workspace: "tvOS/GoogleInteractiveMediaAdsTvOS/GoogleInteractiveMediaAdsTvOS.xcworkspace",
+      scheme: "GoogleInteractiveMediaAdsTvOS",
+      code_coverage: true
+   ) 
+  end
+
+end

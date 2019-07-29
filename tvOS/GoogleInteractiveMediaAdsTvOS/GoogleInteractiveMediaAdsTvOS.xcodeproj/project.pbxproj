@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DD4C5F38690A78800A958C6 /* Pods_GoogleInteractiveMediaAdsTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABF95204F6A83528742BFBF /* Pods_GoogleInteractiveMediaAdsTvOS.framework */; };
+		40242CA222E127B00031A7C0 /* dummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40242CA022E1262F0031A7C0 /* dummyTests.swift */; };
+		406B2E2522EA3011008A0B21 /* GoogleUrlTagData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406B2E2422EA3011008A0B21 /* GoogleUrlTagData.swift */; };
+		406B2E2722EA3599008A0B21 /* GoogleUrlTagDataKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406B2E2622EA3599008A0B21 /* GoogleUrlTagDataKeys.swift */; };
+		408B8A9822E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408B8A8E22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework */; };
+		408B8A9F22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 408B8A9122E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		408B8AA922E10AE500F65E01 /* GoogleInteractiveMediaAdsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408B8AA822E10AE400F65E01 /* GoogleInteractiveMediaAdsAdapter.swift */; };
+		408B8AAC22E10B0300F65E01 /* GoogleInteractiveMediaAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408B8AAB22E10B0300F65E01 /* GoogleInteractiveMediaAds.framework */; };
+		4092BB6B22EA4C9300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092BB6A22EA4C9300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift */; };
+		4092BB6D22EA4CE300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092BB6C22EA4CE300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift */; };
+		4092BB7422EA85BA00F1BEF9 /* GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092BB7322EA85BA00F1BEF9 /* GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift */; };
+		59003257FFE55448E51E973F /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D374F42151FCD7BB3F44C83B /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */; };
+		DC83E7FBB9EE22095EDAD33D /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40242CA322E129340031A7C0 /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408B8A9922E109FA00F65E01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408B8A8522E109FA00F65E01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408B8A8D22E109FA00F65E01;
+			remoteInfo = GoogleInteractiveMediaAdsTvOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FD2B53DC04FDE1BF510090 /* Pods-GoogleInteractiveMediaAdsTvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleInteractiveMediaAdsTvOS.debug.xcconfig"; path = "Target Support Files/Pods-GoogleInteractiveMediaAdsTvOS/Pods-GoogleInteractiveMediaAdsTvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1EB47E484C052DB3DADA87DF /* Pods-GoogleInteractiveMediaAdsTvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleInteractiveMediaAdsTvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleInteractiveMediaAdsTvOSTests/Pods-GoogleInteractiveMediaAdsTvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABF95204F6A83528742BFBF /* Pods_GoogleInteractiveMediaAdsTvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleInteractiveMediaAdsTvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40242C9F22E1262E0031A7C0 /* GoogleInteractiveMediaAdsTvOSTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleInteractiveMediaAdsTvOSTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		40242CA022E1262F0031A7C0 /* dummyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyTests.swift; sourceTree = "<group>"; };
+		40242CA322E129340031A7C0 /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GoogleInteractiveMediaAdsTvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		406B2E2422EA3011008A0B21 /* GoogleUrlTagData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUrlTagData.swift; sourceTree = "<group>"; };
+		406B2E2622EA3599008A0B21 /* GoogleUrlTagDataKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUrlTagDataKeys.swift; sourceTree = "<group>"; };
+		408B8A8E22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleInteractiveMediaAdsTvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408B8A9122E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleInteractiveMediaAdsTvOS.h; sourceTree = "<group>"; };
+		408B8A9222E109FA00F65E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408B8A9722E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleInteractiveMediaAdsTvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408B8A9E22E109FA00F65E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408B8AA822E10AE400F65E01 /* GoogleInteractiveMediaAdsAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleInteractiveMediaAdsAdapter.swift; sourceTree = "<group>"; };
+		408B8AAB22E10B0300F65E01 /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+		4092BB6A22EA4C9300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift"; sourceTree = "<group>"; };
+		4092BB6C22EA4CE300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift"; sourceTree = "<group>"; };
+		4092BB7322EA85BA00F1BEF9 /* GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift"; sourceTree = "<group>"; };
+		41ADB8ED745006EA52EBB3BA /* Pods-GoogleInteractiveMediaAdsTvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleInteractiveMediaAdsTvOS.release.xcconfig"; path = "Target Support Files/Pods-GoogleInteractiveMediaAdsTvOS/Pods-GoogleInteractiveMediaAdsTvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AC1E5E29C57CC274321BFB90 /* Pods-GoogleInteractiveMediaAdsTvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleInteractiveMediaAdsTvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleInteractiveMediaAdsTvOSTests/Pods-GoogleInteractiveMediaAdsTvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D374F42151FCD7BB3F44C83B /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleInteractiveMediaAdsTvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408B8A8B22E109FA00F65E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408B8AAC22E10B0300F65E01 /* GoogleInteractiveMediaAds.framework in Frameworks */,
+				1DD4C5F38690A78800A958C6 /* Pods_GoogleInteractiveMediaAdsTvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408B8A9422E109FA00F65E01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408B8A9822E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework in Frameworks */,
+				59003257FFE55448E51E973F /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework in Frameworks */,
+				DC83E7FBB9EE22095EDAD33D /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1662FDB677C9684643CDE646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40242CA322E129340031A7C0 /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */,
+				2ABF95204F6A83528742BFBF /* Pods_GoogleInteractiveMediaAdsTvOS.framework */,
+				D374F42151FCD7BB3F44C83B /* Pods_GoogleInteractiveMediaAdsTvOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		408B8A8422E109FA00F65E01 = {
+			isa = PBXGroup;
+			children = (
+				408B8A9022E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS */,
+				408B8A9B22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests */,
+				408B8A8F22E109FA00F65E01 /* Products */,
+				B15ADECA7AFCB3ED5EDAB4AC /* Pods */,
+				1662FDB677C9684643CDE646 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		408B8A8F22E109FA00F65E01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408B8A8E22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework */,
+				408B8A9722E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408B8A9022E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4092BB7622EA883F00F1BEF9 /* GoogleInteractiveMediaAdsAdapter */,
+				4092BB7522EA882F00F1BEF9 /* GoogleUrlTagData */,
+				408B8AAA22E10AEA00F65E01 /* GoogleInteractiveAds */,
+				408B8A9122E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.h */,
+				408B8A9222E109FA00F65E01 /* Info.plist */,
+			);
+			path = GoogleInteractiveMediaAdsTvOS;
+			sourceTree = "<group>";
+		};
+		408B8A9B22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				408B8A9E22E109FA00F65E01 /* Info.plist */,
+				40242CA022E1262F0031A7C0 /* dummyTests.swift */,
+				40242C9F22E1262E0031A7C0 /* GoogleInteractiveMediaAdsTvOSTests-Bridging-Header.h */,
+			);
+			path = GoogleInteractiveMediaAdsTvOSTests;
+			sourceTree = "<group>";
+		};
+		408B8AAA22E10AEA00F65E01 /* GoogleInteractiveAds */ = {
+			isa = PBXGroup;
+			children = (
+				408B8AAB22E10B0300F65E01 /* GoogleInteractiveMediaAds.framework */,
+			);
+			path = GoogleInteractiveAds;
+			sourceTree = "<group>";
+		};
+		4092BB7522EA882F00F1BEF9 /* GoogleUrlTagData */ = {
+			isa = PBXGroup;
+			children = (
+				406B2E2422EA3011008A0B21 /* GoogleUrlTagData.swift */,
+				406B2E2622EA3599008A0B21 /* GoogleUrlTagDataKeys.swift */,
+			);
+			path = GoogleUrlTagData;
+			sourceTree = "<group>";
+		};
+		4092BB7622EA883F00F1BEF9 /* GoogleInteractiveMediaAdsAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				408B8AA822E10AE400F65E01 /* GoogleInteractiveMediaAdsAdapter.swift */,
+				4092BB6A22EA4C9300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift */,
+				4092BB6C22EA4CE300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift */,
+				4092BB7322EA85BA00F1BEF9 /* GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift */,
+			);
+			path = GoogleInteractiveMediaAdsAdapter;
+			sourceTree = "<group>";
+		};
+		B15ADECA7AFCB3ED5EDAB4AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03FD2B53DC04FDE1BF510090 /* Pods-GoogleInteractiveMediaAdsTvOS.debug.xcconfig */,
+				41ADB8ED745006EA52EBB3BA /* Pods-GoogleInteractiveMediaAdsTvOS.release.xcconfig */,
+				1EB47E484C052DB3DADA87DF /* Pods-GoogleInteractiveMediaAdsTvOSTests.debug.xcconfig */,
+				AC1E5E29C57CC274321BFB90 /* Pods-GoogleInteractiveMediaAdsTvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		408B8A8922E109FA00F65E01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408B8A9F22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		408B8A8D22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408B8AA222E109FA00F65E01 /* Build configuration list for PBXNativeTarget "GoogleInteractiveMediaAdsTvOS" */;
+			buildPhases = (
+				1C2D0C39D2663D178F947F12 /* [CP] Check Pods Manifest.lock */,
+				408B8A8922E109FA00F65E01 /* Headers */,
+				408B8A8A22E109FA00F65E01 /* Sources */,
+				408B8A8B22E109FA00F65E01 /* Frameworks */,
+				408B8A8C22E109FA00F65E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleInteractiveMediaAdsTvOS;
+			productName = GoogleInteractiveMediaAdsTvOS;
+			productReference = 408B8A8E22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		408B8A9622E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408B8AA522E109FA00F65E01 /* Build configuration list for PBXNativeTarget "GoogleInteractiveMediaAdsTvOSTests" */;
+			buildPhases = (
+				8F129CB63F29B2837CDFF5ED /* [CP] Check Pods Manifest.lock */,
+				408B8A9322E109FA00F65E01 /* Sources */,
+				408B8A9422E109FA00F65E01 /* Frameworks */,
+				408B8A9522E109FA00F65E01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408B8A9A22E109FA00F65E01 /* PBXTargetDependency */,
+			);
+			name = GoogleInteractiveMediaAdsTvOSTests;
+			productName = GoogleInteractiveMediaAdsTvOSTests;
+			productReference = 408B8A9722E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408B8A8522E109FA00F65E01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anton Kononenko";
+				TargetAttributes = {
+					408B8A8D22E109FA00F65E01 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					408B8A9622E109FA00F65E01 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 408B8A8822E109FA00F65E01 /* Build configuration list for PBXProject "GoogleInteractiveMediaAdsTvOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408B8A8422E109FA00F65E01;
+			productRefGroup = 408B8A8F22E109FA00F65E01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408B8A8D22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS */,
+				408B8A9622E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408B8A8C22E109FA00F65E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408B8A9522E109FA00F65E01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C2D0C39D2663D178F947F12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleInteractiveMediaAdsTvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F129CB63F29B2837CDFF5ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleInteractiveMediaAdsTvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408B8A8A22E109FA00F65E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4092BB7422EA85BA00F1BEF9 /* GoogleInteractiveMediaAdsAdapter+QBPlayerObserverProtocol.swift in Sources */,
+				408B8AA922E10AE500F65E01 /* GoogleInteractiveMediaAdsAdapter.swift in Sources */,
+				4092BB6B22EA4C9300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsManagerDelegate.swift in Sources */,
+				4092BB6D22EA4CE300F1BEF9 /* GoogleInteractiveMediaAdsAdapter+IMAAdsLoaderDelegate.swift in Sources */,
+				406B2E2722EA3599008A0B21 /* GoogleUrlTagDataKeys.swift in Sources */,
+				406B2E2522EA3011008A0B21 /* GoogleUrlTagData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408B8A9322E109FA00F65E01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40242CA222E127B00031A7C0 /* dummyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408B8A9A22E109FA00F65E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408B8A8D22E109FA00F65E01 /* GoogleInteractiveMediaAdsTvOS */;
+			targetProxy = 408B8A9922E109FA00F65E01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		408B8AA022E109FA00F65E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		408B8AA122E109FA00F65E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		408B8AA322E109FA00F65E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FD2B53DC04FDE1BF510090 /* Pods-GoogleInteractiveMediaAdsTvOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleInteractiveMediaAdsTvOS/GoogleInteractiveAds",
+				);
+				INFOPLIST_FILE = GoogleInteractiveMediaAdsTvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.GoogleInteractiveMediaAdsTvOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		408B8AA422E109FA00F65E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41ADB8ED745006EA52EBB3BA /* Pods-GoogleInteractiveMediaAdsTvOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleInteractiveMediaAdsTvOS/GoogleInteractiveAds",
+				);
+				INFOPLIST_FILE = GoogleInteractiveMediaAdsTvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.GoogleInteractiveMediaAdsTvOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		408B8AA622E109FA00F65E01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB47E484C052DB3DADA87DF /* Pods-GoogleInteractiveMediaAdsTvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleInteractiveMediaAdsTvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.GoogleInteractiveMediaAdsTvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleInteractiveMediaAdsTvOSTests/GoogleInteractiveMediaAdsTvOSTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		408B8AA722E109FA00F65E01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1E5E29C57CC274321BFB90 /* Pods-GoogleInteractiveMediaAdsTvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleInteractiveMediaAdsTvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicaster.GoogleInteractiveMediaAdsTvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoogleInteractiveMediaAdsTvOSTests/GoogleInteractiveMediaAdsTvOSTests-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408B8A8822E109FA00F65E01 /* Build configuration list for PBXProject "GoogleInteractiveMediaAdsTvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408B8AA022E109FA00F65E01 /* Debug */,
+				408B8AA122E109FA00F65E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408B8AA222E109FA00F65E01 /* Build configuration list for PBXNativeTarget "GoogleInteractiveMediaAdsTvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408B8AA322E109FA00F65E01 /* Debug */,
+				408B8AA422E109FA00F65E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408B8AA522E109FA00F65E01 /* Build configuration list for PBXNativeTarget "GoogleInteractiveMediaAdsTvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408B8AA622E109FA00F65E01 /* Debug */,
+				408B8AA722E109FA00F65E01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408B8A8522E109FA00F65E01 /* Project object */;
+}

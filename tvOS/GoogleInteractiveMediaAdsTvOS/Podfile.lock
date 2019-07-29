@@ -1,0 +1,16 @@
+PODS:
+  - ZappPlugins (9.1.2)
+
+DEPENDENCIES:
+  - ZappPlugins
+
+SPEC REPOS:
+  "git@github.com:applicaster/CocoaPods.git":
+    - ZappPlugins
+
+SPEC CHECKSUMS:
+  ZappPlugins: e17c25bda182ffae986d0ce3a68074f2b12ceb19
+
+PODFILE CHECKSUM: e054ac43751452df07e7cf06824bf2634520d41b
+
+COCOAPODS: 1.7.5

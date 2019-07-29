@@ -1,0 +1,16 @@
+
+platform :tvos, '10.0'
+
+source 'git@github.com:applicaster/CocoaPods.git'
+source 'git@github.com:applicaster/CocoaPods-Private.git'
+
+target 'GoogleInteractiveMediaAdsTvOS' do
+  use_frameworks!
+  pod 'ZappPlugins'
+
+  target 'GoogleInteractiveMediaAdsTvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
