@@ -4,10 +4,12 @@
     "class_name": "GoogleInteractiveMediaAdsAdapter",
     "modules": ["GoogleInteractiveMediaAdsTvOS"]
   },
+  "dependency_name": "@applicaster/quick-brick-google-ima-client-tv",
+  "dependency_version": "1.0.2",
   "platform": "tvos",
   "author_name": "Anton Kononenko",
   "author_email": "a.kononenko@applicaster.com",
-  "manifest_version": "1.0.0",
+  "manifest_version": "1.0.2",
   "name": "GoogleInteractiveMediaAdsTV",
   "description": "This plugin allow to add Google Interactive Media Ads to supported players",
   "type": "video_advertisement",
@@ -16,13 +18,13 @@
   "whitelisted_account_ids": ["572a0a65373163000b000000"],
   "extra_dependencies": [
     {
-      "GoogleInteractiveMediaAdsTvOS": ":git => 'https://github.com/applicaster-plugins/Google-IMA-Client-TV.git', :tag => '1.0.3'"
+      "GoogleInteractiveMediaAdsTvOS": ":path =\u003e './quick_brick/node_modules/@applicaster/quick-brick-google-ima-client-tv/GoogleInteractiveMediaAdsTvOS.podspec'"
     }
   ],
-  "min_zapp_sdk": "10.1.1-Dev",
+  "min_zapp_sdk": "10.1.0-Dev",
   "deprecated_since_zapp_sdk": "",
   "unsupported_since_zapp_sdk": "",
-  "react_native": false,
+  "react_native": true,
   "custom_configuration_fields": [
     {
       "type": "text",
@@ -49,10 +51,11 @@
       "default": ""
     },
     {
-      "type": "number",
+      "type": "text",
       "key": "midroll_offset",
       "tooltip_text": "Midroll offset",
       "default": ""
     }
-  ]
+  ],
+  "targets": ["tv"]
 }
