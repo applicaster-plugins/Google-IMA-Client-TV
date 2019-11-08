@@ -66,7 +66,7 @@ import ZappPlugins
     
     func setupAdsLoader() {
         let settings = IMASettings()
-        settings.enableDebugMode = true
+        settings.enableDebugMode = false
         adsLoader = IMAAdsLoader(settings: settings)
         adsLoader?.delegate = self;
     }
