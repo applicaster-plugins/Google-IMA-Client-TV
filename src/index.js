@@ -44,7 +44,8 @@ function buildVideoAdInfo(configuration) {
 function runHook(payload, callback, configuration) {
   if (!hasAdExtensions(payload) && !!configuration) {
     payload.extensions = {
-      video_ads: buildVideoAdInfo(configuration)
+      video_ads: buildVideoAdInfo(configuration),
+      ...payload.extensions
     };
   }
 
